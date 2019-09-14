@@ -17,3 +17,18 @@ apt install postfix -y
 ```
 
 Follow the setup guide, and select Internet with Smart Host.
+
+## Information we will need.
+
+* Server we are wanting to relay our messages to. A google search can usually find this.
+* Server port.
+* Username.
+* Password.
+* Limits.
+
+## main.cf
+
+## sasl_password
+
+## allowed_networks
+ 
