@@ -1,4 +1,4 @@
-<!-- TITLE: Relay -->
+<!-- TITLE: Postfix Relay -->
 <!-- SUBTITLE: Setting up a simple postfix relay -->
 
 # Relay
