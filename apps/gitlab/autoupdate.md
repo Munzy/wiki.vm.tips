@@ -64,6 +64,8 @@ Unattended-Upgrade::Origins-Pattern {
 [...]
 ```
 
+## Crontab and Daily Run Time
+
 This should run on the daily update cron schedule. You can see the cron at:
 ```
 nano /etc/crontab
