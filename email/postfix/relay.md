@@ -28,7 +28,7 @@ Follow the setup guide, and select Internet with Smart Host.
 
 ## main.cf
 
-Append the following to your main.cf in /etc/postfix/main.cf
+Append the following to your main.cf in /etc/postfix/main.cf. You can do this via the command ```nano /etc/postfix/main.cf```. If it complains that it isn't installed... run ```apt install nano -y```.
 
 ```
 # Relay, and login settings.
