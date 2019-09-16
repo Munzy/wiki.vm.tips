@@ -1,4 +1,4 @@
-<!-- TITLE: Upgrade -->
+<!-- TITLE: Brocade Switch Upgrade -->
 <!-- SUBTITLE: A quick summary of Upgrade -->
 
 # Brocade Upgrade
