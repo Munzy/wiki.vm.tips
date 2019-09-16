@@ -1,4 +1,4 @@
-<!-- TITLE: Tftp -->
+<!-- TITLE: Tftp Servers -->
 <!-- SUBTITLE: A quick summary of Tftp -->
 
 # tftp servers
