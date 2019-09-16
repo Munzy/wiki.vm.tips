@@ -28,3 +28,8 @@ for VE in $(vzlist -Ha -o veid); do vzctl set $VE --onboot yes --save; done
 ```
 for VE in $(vzlist -Ha -o veid); do vzctl restart $VE; done
 ```
+
+
+# Links
+
+https://kaushalsubedi.com/blog/2014/11/22/stopping-starting-rebooting-migrating-multiple-all-openvz-containers-in-one-command/
