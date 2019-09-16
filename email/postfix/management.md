@@ -26,3 +26,31 @@ This will watch all mail related transports.
 ## mailq
 
 Sometimes you need to see what is held up in the queue. To do this simply run ```mailq```.
+
+## flush
+
+### delete
+
+If you want to delete the mailq.
+
+```
+postsuper -d ALL
+```
+
+### remove deferred
+
+```
+postsuper -d ALL deferred
+```
+
+### rerun
+
+```
+postfix -f
+```
+
+or
+
+```
+postfix flush
+```
