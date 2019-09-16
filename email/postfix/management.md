@@ -30,9 +30,6 @@ Sometimes you need to see what is held up in the queue. To do this simply run ``
 ## flush
 
 ### delete
-
-If you want to delete the mailq.
-
 ```
 postsuper -d ALL
 ```
@@ -48,9 +45,6 @@ postsuper -d ALL deferred
 ```
 postfix -f
 ```
-
-or
-
 ```
 postfix flush
 ```
