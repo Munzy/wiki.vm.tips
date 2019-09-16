@@ -130,4 +130,7 @@ copy flash flash primary
 
 ### Video Tutorial
 
+[video](https://www.youtube.com/watch?v=7SpZq51v8GE){.youtube}
+
+
 https://www.youtube.com/watch?v=7SpZq51v8GE
