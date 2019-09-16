@@ -3,7 +3,7 @@
 
 # Postfix Management 101
 
-## Logging
+## logging
 
 To access logging, and watch it live... an easy method is: ``` tail -f /var/log/mail.*```.
 
