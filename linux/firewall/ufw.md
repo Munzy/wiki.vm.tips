@@ -38,6 +38,6 @@ ufw status
 
 ## Delete Rule
 ```
-ufw status
-ufw delete RULE|NUM
+ufw status numbered
+ufw delete <number>
 ```
