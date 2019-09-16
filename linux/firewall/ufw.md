@@ -23,7 +23,7 @@ ufw enable
 
 # or
 
-ufw enable --force
+ufw --force enable
 ```
 
 ## Disable
