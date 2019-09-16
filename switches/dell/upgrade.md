@@ -3,7 +3,7 @@
 
 # Dell Switch Upgrade
 
-Firstly make sure to setup a TFTP server to distribute your packages from as well as a telnet/ssh client.
+Firstly make sure to setup a TFTP server https://wiki.vm.tips/switches/tftp to distribute your packages from as well as a telnet/ssh client.
 
 ## download
 
