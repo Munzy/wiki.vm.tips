@@ -109,7 +109,7 @@ In this case we want the [S]witch image.
 copy tftp flash 10.239.2xx.xxx Firmware/FCXS08030n.bin sec
 ```
 
-### Reload into new Flash ===
+### Reload into new Flash
 
 Now that we have upgraded the image and boot code. We need to reboot into the new image. To do this we boot into the secondary.
 
