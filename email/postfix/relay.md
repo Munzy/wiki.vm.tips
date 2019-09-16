@@ -147,7 +147,7 @@ Edit the file accordingly and add notes for each IP you wish to add like below:
 postmap /etc/postfix/allowed_networks
 ```
  
- ## After Any Change
+ ## restart server
  
  After you make any change make sure to run ```systemctl restart postfix``` -or- ```systemctl reload postfix```
  
