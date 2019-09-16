@@ -36,6 +36,7 @@ Now add:
 Inbetween:
 
 ```
+[...]
 Unattended-Upgrade::Origins-Pattern {
         // Codename based matching:
         // This will follow the migration of a release through different
@@ -60,4 +61,5 @@ Unattended-Upgrade::Origins-Pattern {
         //      "o=Debian,a=proposed-updates";
         //      "o=Debian Backports,a=${distro_codename}-backports,l=Debian Backports";
 };
+[...]
 ```
