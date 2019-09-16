@@ -44,7 +44,6 @@ postsuper -d ALL deferred
 
 ```
 postfix -f
-```
-```
+# or
 postfix flush
 ```
