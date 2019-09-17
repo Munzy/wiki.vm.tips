@@ -19,12 +19,12 @@ For this method to properly work, there must be a root drive with partitions on 
 2. Verify IP connectivity to your source VM.
 3. Find the root drive on your source VM. Should be something like /dev/sda.
 4. Determine the root drive on your destination vm. Should be something like /dev/vda.
-4. Now using your destination VM, launch a bash prompt and sudo into root.
-5. Run ```ssh root@source-vm-ip "dd if=/dev/sda" | dd of=/dev/vda```
-6. Wait for the job to finish. It is sometimes recommended to do a fsck while you are it to verify everything is ok.
-7. Once done, reboot your VM and verify that the destination is working as intended. 
-8. Set the new IP address if you need to, and turn off the old VM once you feel everything is good.
-***9. Make sure to leave your old VM in an offline state for a few days, and to have a backup just in case the new one has issues.***
+5. Now using your destination VM, launch a bash prompt and sudo into root.
+6. Run ```ssh root@source-vm-ip "dd if=/dev/sda" | dd of=/dev/vda```
+7. Wait for the job to finish. It is sometimes recommended to do a fsck while you are it to verify everything is ok.
+8. Once done, reboot your VM and verify that the destination is working as intended. 
+9. Set the new IP address if you need to, and turn off the old VM once you feel everything is good.
+***10. Make sure to leave your old VM in an offline state for a few days, and to have a backup just in case the new one has issues.***
 
 
 
