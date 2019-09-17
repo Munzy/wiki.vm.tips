@@ -1,4 +1,4 @@
-<!-- TITLE: Vmware -->
+<!-- TITLE: VMWare -->
 <!-- SUBTITLE: A quick summary of Vmware -->
 
 # VMWare
