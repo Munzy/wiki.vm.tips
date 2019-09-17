@@ -66,4 +66,18 @@ For this method to properly work, there must be a root drive with partitions on 
 ***10. Make sure to leave your old VM in an offline state for a few days, and to have a backup just in case the new one has issues.***
 
 
+### Rsync 
+
+1. Setup new server with the exact same OS Version, and Arch.
+2. Run the following command on thew new server. ``` rsync -auHxv –numeric-ids –exclude=/etc/fstab –exclude=/etc/network/* –exclude=/proc/* –exclude=/tmp/* –exclude=/sys/* –exclude=/dev/* –exclude=/mnt/* –exclude=/boot/* –exclude=/root/* root@SRC-IP:/* / ```
+3. Reboot server
+4. Verify functionality.
+
+
+
+
+## Links
+
+1. https://lowendbox.com/blog/how-to-migrate-a-hosted-server-in-5-easy-steps-with-rsync/
+2. https://serverfault.com/questions/328071/linux-migration-from-a-server-to-another
 
