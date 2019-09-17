@@ -7,6 +7,45 @@ Sometimes we need to move a server from one provider to the next. Some methods h
 
 ## VM to VM 
 
+### VMWare Converter
+
+This method uses the proprietary VMWare Converter Software. This method is great when going to a VMWare product such as VMWare ESXi. This method doesn't always work. Especially if the source VM/Server has a non standard boot provider.
+
+If you wish to get the VMWare converter. Head to the VMWare website and login. https://my.vmware.com/web/vmware/login.
+Afterwards you can download the VMWare Converter client from: https://www.vmware.com/go/getconverter.
+
+You will need a Microsoft Windows machine to run it off of. Run the installer, and follow the default prompts. Make sure to pick Local installation. 
+
+#### VMWare to VMWare
+1. Turn off the source VM. You can only use VMWare converter to do offline migrations.
+2. Click Convert Machine in VMWare Converter.
+3. Select the Source Type as Powered Off.
+4. Then select the appropriate type. Vmware Infastructure Client is what you will generally use.
+5. Input the source host server details, username, and password and click next.
+6. Select the VM you wish to move. 
+7. Input the destination host server details, username, and password and click next. 
+8. Place the VM into the appropriate locations, and select the destination host and storage. 
+9. Select Data to Copy and change from Thick to Thin. Assuming you want thin provisioning.
+10. On the Networks section change the Controller Type to the current controller type. Also set the networks that you wish the VM to connect to.
+11. Select Advanced and determine if you want the VM to power on after conversation.
+12. Click next, and verify your settings. Then simply start the conversion.
+***13. Make sure to leave your old VM in an offline state for a few days, and to have a backup just in case the new one has issues.***
+
+
+#### VM to VMware
+1. Select the source type as Powered On.
+2. Determine the most appropriate conversion type and input the IP Address and credentials of the device. 
+3. Input the destination host server details, username, and password and click next. 
+4. Place the VM into the appropriate locations, and select the destination host and storage. 
+5.  Select Data to Copy > Destinaton Layout and change from Thick to Thin. Assuming you want thin provisioning.
+6.  On the Networks section change the Controller Type to the current controller type. Also set the networks that you wish the VM to connect to.
+7.  Click next, and verify your settings. Then simply start the conversion.
+8. Once the migration has finished. It is best to turn off the source host. Turn on the destination VM, and verify IP connectivity. Make sure everything is working as intended.
+9. Finally as some final polishing make sure to install vmware-tools.
+***10. Make sure to leave your old source host in an offline state for a few days, and to have a backup just in case the new one has issues.***
+
+
+
 ### Live CD DD
 
 One of the best methods I have found is the Live CD DD migration. You will need a live CD from the likes of Ubuntu, Debian, or some other linux distro. 
