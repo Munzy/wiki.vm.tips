@@ -6,7 +6,7 @@
 ## Install
 ```
 apt update
-apt isntall ufw
+apt install ufw
 ```
 
 ## Add Allowed Ports/Services
