@@ -1,7 +1,7 @@
 <!-- TITLE: Dell Switch Upgrade -->
 <!-- SUBTITLE: How to upgrade Dell Switches -->
 
-# Dell Switch Upgrade
+# Dell Switch Stack Upgrade
 
 Firstly make sure to setup a TFTP server https://wiki.vm.tips/apps/tftp to distribute your packages from as well as a telnet/ssh client.
 
@@ -62,4 +62,7 @@ console# boot system image-x switch-x
 console# boot system image-x all
 console# reload
 ```
+
+## Links
+https://www.dell.com/community/Networking-General/Upgrading-a-Dell-Sw-Stack-of-4-units-5548/td-p/5828464
 
