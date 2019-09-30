@@ -1,5 +1,5 @@
-<!-- TITLE: Dell Switch Upgrade -->
-<!-- SUBTITLE: How to upgrade Dell Switches -->
+<!-- TITLE: Dell Switch Stack Upgrade -->
+<!-- SUBTITLE: How to upgrade Dell Switch Stacks -->
 
 # Dell Switch Stack Upgrade
 
