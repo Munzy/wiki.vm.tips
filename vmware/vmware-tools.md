@@ -4,6 +4,7 @@
 # VMWare Tools
 ## Official
 
+The official source can be installed directly from the vSphere user interface.
 
 ## Open Source
 The open source vm tools allows for easier installation and upgrades than the official source. For linux operating systems this is recommended by VMWare.
