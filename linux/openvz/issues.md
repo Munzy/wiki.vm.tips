@@ -17,3 +17,5 @@ If you have factory return disable it via:
 ```
  yum-config-manager --disable factory
  ```
+ 
+ https://forum.openvz.org/index.php?t=rview&th=13492&goto=53506
