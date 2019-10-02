@@ -1,7 +1,4 @@
-|  Resource |   Virtual Max  |  Physical Max  |
-|:---------:|:--------------:|:--------------:|
-| Processor | 240 Processors | 512 Processors |
-|   Memory  |      12 TB     |      24 TB     |<!-- TITLE: Windows 2016 Required Resources -->
+<!-- TITLE: Server 2016 Required Resources -->
 <!-- SUBTITLE: A quick summary of Resources -->
 
 # Minimum Requirements
