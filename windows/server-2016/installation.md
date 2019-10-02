@@ -33,3 +33,6 @@ Make sure you update windows... duh.
 
 Name the server....
 
+## Role
+
+Set our role...
