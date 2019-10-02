@@ -10,3 +10,10 @@
 | Memory    | 512 MB / 2 GB ECC |
 | Storage   | 32 GB             |
 | Network   | 1 Gigabit         |
+
+# Maximums
+
+|  Resource |   Virtual Max  | Physical Max   |
+|:---------:|:--------------:|----------------|
+| Processor | 240 Processors | 512 Processors |
+| Memory    | 12 TB          | 24 TB          |
