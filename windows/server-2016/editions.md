@@ -30,3 +30,22 @@ OEM Only, dedicated storage solution.
 
 ## Hyper-V Server
 Free, stand-alone headless hypervisor.
+
+# Installation Options
+
+## Desktop
+
+Full GUI experience.
+
+## Server Core
+
+Command Line Only.
+
+Minimalistic.
+
+
+## Nano Server
+
+Tiny.
+
+Completely Headless.
