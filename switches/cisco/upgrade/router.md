@@ -37,7 +37,8 @@ Address or name of remote host [192.168.1.2]?
 Source filename [c2951-universalk9-mz.SPA.157-3.M5.bin]?
 Destination filename [c2951-universalk9-mz.SPA.157-3.M5.bin]?
 Accessing tftp://192.168.1.2/c2951-universalk9-mz.SPA.157-3.M5.bin...
-Loading c2951-universalk9-mz.SPA.157-3.M5.bin from 192.168.1.2 (via GigabitEthernet0/0): !!!!!![...]```
+Loading c2951-universalk9-mz.SPA.157-3.M5.bin from 192.168.1.2 (via GigabitEthernet0/0): !!!!!![...]
+```
 
 ### Verify
 
