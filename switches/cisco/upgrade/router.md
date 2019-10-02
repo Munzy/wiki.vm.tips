@@ -104,5 +104,12 @@ Copyright (c) 2012 by cisco Systems, Inc.
 
 ### Links
 
+https://www.cisco.com/c/en/us/support/docs/routers/3800-series-integrated-services-routers/49044-sw-upgrade-proc-ram.html
+
+
+### Video
+
+[video](https://www.youtube.com/watch?v=EX5zvzH0cSc){.youtube}
+
 
 
