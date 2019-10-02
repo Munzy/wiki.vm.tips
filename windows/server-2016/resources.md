@@ -1,4 +1,7 @@
-<!-- TITLE: Windows 2016 Required Resources -->
+|  Resource |   Virtual Max  |  Physical Max  |
+|:---------:|:--------------:|:--------------:|
+| Processor | 240 Processors | 512 Processors |
+|   Memory  |      12 TB     |      24 TB     |<!-- TITLE: Windows 2016 Required Resources -->
 <!-- SUBTITLE: A quick summary of Resources -->
 
 # Minimum Requirements
@@ -12,8 +15,7 @@
 | Network   | 1 Gigabit         |
 
 # Maximums
-
-|  Resource |   Virtual Max  | Physical Max   |
-|:---------:|:--------------:|----------------|
+|  Resource |   Virtual Max  |  Physical Max  |
+|:---------:|:--------------:|:--------------:|
 | Processor | 240 Processors | 512 Processors |
-| Memory    | 12 TB          | 24 TB          |
+|   Memory  |      12 TB     |      24 TB     |
