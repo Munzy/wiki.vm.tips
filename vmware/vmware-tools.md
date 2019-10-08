@@ -23,4 +23,7 @@ systemctl start open-vm-tools
 yum install open-vm-tools 
 systemctl enable open-vm-tools
 systemctl start open-vm-tools
+
+systemctl enable vmtoolsd
+systemctl start vmtoolsd
 ```
