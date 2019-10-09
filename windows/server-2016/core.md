@@ -1,4 +1,4 @@
-<!-- TITLE: Windows Server 2016 Core Basics -->
+<!-- TITLE: Server 2016 Core Basics -->
 <!-- SUBTITLE: A quick summary of Core -->
 
 # Core Basics
