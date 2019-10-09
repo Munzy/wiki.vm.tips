@@ -48,7 +48,9 @@ ApplyAndAutocorrect:
 	Apply the configuration and auto fix that are out of state.
 	
 	
+	
 #### Verify Configuration State
+
 
 ```
 Get-DscConfigurationStatus
