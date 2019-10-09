@@ -6,6 +6,7 @@
 ## Configure IP/DNS
 
 > The easiest way to set this is via sconfig.
+> ![Ipsettings](/uploads/ipsettings.png "Ipsettings")
 
 
 ### IP Address
