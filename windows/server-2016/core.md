@@ -183,6 +183,10 @@ Get-WindowsFeature
 # Install web server (iis)
 Install-WindowsFeature -Name Web-Server, Web-Mgmt-Service
 
+# View installed features
+Get-WindowsFeautre | Where-Object Installed -eq True
+
+
 # Configure Remote Management
 Set-ItemPropertey -Path "HKLM:\Software\Microsoft\WebManagement\Server" -Name "EnableRemoteManagement" -Value 1
 
