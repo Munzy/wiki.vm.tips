@@ -47,13 +47,9 @@ ApplyAndAutocorrect:
 
 	Apply the configuration and auto fix that are out of state.
 	
+Verify Configuration State:
 	
-	
-#### Verify Configuration State
+	Get-DscConfigurationStatus
 
-
-```
-Get-DscConfigurationStatus
-```
 
 ### .Mof -- Managed Object Framework
