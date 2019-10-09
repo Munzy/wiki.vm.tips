@@ -30,12 +30,21 @@ Contacts Microsoft for authorization of key, unless using VAMT - Volume Activati
 
 Greater then 50 machines.
 
+Licenses are vaild for 180 days. The Clients will check in every 7 days.
+
+25 Clients / 5 Servers threshold.
+
 Needs TCP:1688 and creates a SRV record in DNS to find the KMS server.
 
 Requires VAMT - Volume Activation Management Tools. Requires CSVLK - Customer Specific Volume License Key.
 
-KMS uses a GVLK - Generic Volume License Key. They can be found here: https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys
+### ADA - Active Directory Based Activation
 
+KMS uses a GVLK - Generic Volume License Key. They can be found here: 
+
+https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys
+
+```
 Windows Server Semi-Annual Channel versions
 Windows Server, version 1903 and Windows Server, version 1809
 Operating system edition	KMS Client Setup Key
@@ -145,7 +154,6 @@ Windows 7 Professional E	W82YF-2Q76Y-63HXB-FGJG9-GF7QX
 Windows 7 Enterprise	33PXH-7Y6KF-2VJC9-XBBR8-HVTHH
 Windows 7 Enterprise N	YDRBP-3D83W-TY26F-D46B2-XCKRJ
 Windows 7 Enterprise E	C29WB-22CC8-VJ326-GHFJW-H9DH4
-
-### ADA - Active Directory Based Activation
+```
 
 ### AVMA - Automatic Virtual Machine Activation
