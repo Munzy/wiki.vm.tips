@@ -2,6 +2,29 @@
 <!-- SUBTITLE: A quick summary of Activation -->
 
 # Activation
+## Activation
+
+### Product Key
+
+```
+slmgr /ipk <product_key>
+slmgr /ato
+```
+
+### Dism for AVMA
+
+```
+dism /online /Set-Edition:ServerStandardCor /Product-KeyLTMJ3Y-NTRTM-FJYXT-T22BY-CWG3J /AcceptEula
+slmgr /ato
+```
+
+
+### Determine Current License
+
+```
+slmgr /dlv
+```
+
 ## Product Key Types
 
 ### Retail
@@ -40,7 +63,13 @@ Requires VAMT - Volume Activation Management Tools. Requires CSVLK - Customer Sp
 
 ### ADA - Active Directory Based Activation
 
-KMS uses a GVLK - Generic Volume License Key. They can be found here: 
+ADA uses a GVLK - Generic Volume License Key. They can be found here: 
+
+Requires CSVLK - Customer Specific Volume License Key.
+
+Requires 2012 server and up.
+
+Requires Windows 8 and up on clients.
 
 https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys
 
@@ -157,3 +186,38 @@ Windows 7 Enterprise E	C29WB-22CC8-VJ326-GHFJW-H9DH4
 ```
 
 ### AVMA - Automatic Virtual Machine Activation
+
+Requires Hyper-V Server Datacenter Edition.
+
+AVMA License Keys:
+https://docs.microsoft.com/en-us/windows-server/get-started-19/vm-activation-19
+
+```
+The following AVMA keys can be used for Windows Server 2019.
+Edition	AVMA key
+Datacenter	H3RNG-8C32Q-Q8FRX-6TDXV-WMBMW
+Standard	TNK62-RXVTB-4P47B-2D623-4GF74
+Essentials	2CTP7-NHT64-BP62M-FV6GG-HFV28
+
+The following AVMA keys can be used for Windows Server, version 1809.
+Edition	AVMA key
+Datacenter	H3RNG-8C32Q-Q8FRX-6TDXV-WMBMW
+Standard	TNK62-RXVTB-4P47B-2D623-4GF74
+
+The following AVMA keys can be used for Windows Server, version 1803 and 1709.
+Edition	AVMA key
+Datacenter	TMJ3Y-NTRTM-FJYXT-T22BY-CWG3J
+Standard	C3RCX-M6NRP-6CXC9-TW2F2-4RHYD
+
+The following AVMA keys can be used for Windows Server 2016.
+Edition	AVMA key
+Datacenter	TMJ3Y-NTRTM-FJYXT-T22BY-CWG3J
+Standard	C3RCX-M6NRP-6CXC9-TW2F2-4RHYD
+Essentials	B4YNW-62DX9-W8V6M-82649-MHBKQ
+
+The following AVMA keys can be used for Windows Server 2012 R2.
+Edition	AVMA key
+Datacenter	Y4TGP-NPTV9-HTC2H-7MGQ3-DV4TW
+Standard	DBGBW-NPF86-BJVTX-K3WKJ-MTB6V
+Essentials	K2XGM-NMBT3-2R6Q8-WF2FK-P36R2
+```
