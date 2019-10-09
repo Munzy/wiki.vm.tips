@@ -3,6 +3,12 @@
 
 # Core Basics
 
+## Server Manager
+
+https://www.microsoft.com/en-us/Download/confirmation.aspx?id=8053&mstLocPickShow=True
+
+Download will allow you to remotely manager your server core instances from a GUI.
+
 ## SConfig
 
 Sconfig provides a text-based menu utility for configure server core. 
@@ -17,6 +23,18 @@ Sconfig provides a text-based menu utility for configure server core.
 To update the help docs to the latest and greatest run.
 ```
 Update-Help
+```
+
+
+### Remote Session
+
+Enter Session:
+```
+Enter-PSSession -ComputerName <name>
+```
+Exit Session:
+```
+Exit-PSSession
 ```
 
 ## Task Manager
@@ -36,6 +54,8 @@ Select "Task Manager".
 
 ### IP Address
 
+#### Set IP Address
+
 From cmd.prompt you can use:
 
 ```
@@ -51,6 +71,20 @@ Then:
 ```
 New-NetIPAddress -InterfaceIndex 2 -IPAddress <ip> -PrefixLength 24 -DefaultGateway <gateway>
 ```
+
+#### Verify IP Address
+
+cmd.prompt:
+
+```
+ipconfig
+```
+
+powershell:
+```
+Get-NetIPConfiguration
+```
+
 
 ### DNS 
 
@@ -107,4 +141,60 @@ hostname
 From powershell:
 ```
 $env:COMPUTERNAME
+```
+
+### Join Domain
+
+Make sure the DNS servers are set to the Domain Controllers IP Address.
+
+
+cmd.prompt:
+```
+netdom join %computername% /domain:<domain> /userd:<admin> /passwordd:<pass>
+```
+
+powershell:
+```
+Add-Computer -DomainName <domain>
+```
+
+Make sure to restart the computer.
+
+## Power Operations
+
+### Restart
+
+cmd.prompt
+```
+shutdown -r -t 0 
+```
+
+powershell:
+```
+Restart-Computer
+```
+
+## Install Roles
+powershell:
+```
+# View all available features
+Get-WindowsFeature
+
+# Install web server (iis)
+Install-WindowsFeature -Name Web-Server, Web-Mgmt-Service
+
+# Configure Remote Management
+Set-ItemPropertey -Path "HKLM:\Software\Microsoft\WebManagement\Server" -Name "EnableRemoteManagement" -Value 1
+
+# Configure Remote Management Service to autostart
+Set-Service WMSVC -StartupType Automatic
+
+# Rename Computer
+Rename-Computer -NewName Web-Server -DomainCredential "<domain>\<user>" -Force -Restart
+
+# Send a Command
+Invoke-Command -ComputerName <name> -ScriptBlock { Get-Service W3SVC, WMSVC }
+
+# Use the built in computername paramater (( Same as above ))
+Get-Service -ComputerName <name>
 ```
