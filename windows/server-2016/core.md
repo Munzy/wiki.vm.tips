@@ -3,12 +3,18 @@
 
 # Core
 
+## SConfig
+
+Sconfig provides a text-based menu utility for configure server core. 
+
+![Chrome Altnqq 5 Net](/uploads/chrome-altnqq-5-net.png "Chrome Altnqq 5 Net")
+
+
 ## Configure IP/DNS
 
-## > The easiest way to set this is via sconfig.
-> 
-> ![Ipsettings](/uploads/ipsettings.png "Ipsettings")
-> 
+### The easiest way to set this is via sconfig.
+
+![Ipsettings](/uploads/ipsettings.png "Ipsettings")
 
 
 ### IP Address
@@ -43,12 +49,3 @@ From powershell you can use:
 ```
 Set-DnsClientServerAddress -InterfaceIndex 2 -ServerAddresses ("<dns-pri>","<dns-sec">)
 ```
-
-## SConfig
-
-Sconfig provides a text-based menu utility for configure server core. 
-
-![Chrome Altnqq 5 Net](/uploads/chrome-altnqq-5-net.png "Chrome Altnqq 5 Net")
-
-
-
