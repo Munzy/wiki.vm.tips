@@ -9,6 +9,7 @@ Scripted
 wget -O- https://git.enjen.net/munzy/recipes/raw/master/recipes/debian/unattended-upgrades.sh
 ```
 
+Install:
 ```
 apt install unattended-upgrades
 ```
