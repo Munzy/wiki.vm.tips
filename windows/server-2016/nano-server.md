@@ -57,6 +57,56 @@ Get-Childitem C:
 Get-WinEvent
 ```
 
+## Trust Relationship
+
+### Add
+```
+Set-Item WSMan:\localhost\Client\TrustedHosts "<ip>"
+```
+
+### Reset
+```
+Set-Item WSMan:\localhost\Client\TrustedHosts ""
+```
 
 
+## Add to Domain
 
+```
+# Create Blob File
+djoin.exe /provision /domain <domain> /machine <name> /savefile .\djoin.blob
+
+# Create Session
+$session = New-PSSession -Computername <ip> -Credential (Get-Credentail)
+
+# Copy to nano server
+Copy-Item -Path .\djoin.blob -DestinationPath C:\ -ToSession $session
+
+# Enter Session
+Enter-PSSession -Session $session
+
+# Join Domain
+djoin /requestobj /loadfile C:\djoin.blob /windowspath C:windows /localos
+
+# Restart
+Restart-Computer
+
+# Verify
+Enter-PSSession -Computername <name>
+```
+
+## Packages
+
+```
+# install the package provider
+Install-PackageProvider NanoServerPackage
+
+# install the package provider
+Import-PackageProvider NanoServerPackage
+
+# List all packages
+Find-PackageProvider NanoServerPackage
+
+# Install
+Install-Package -Name <name>
+```
