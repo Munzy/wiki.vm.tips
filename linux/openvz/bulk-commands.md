@@ -29,6 +29,10 @@ for VE in $(vzlist -Ha -o veid); do vzctl set $VE --onboot yes --save; done
 for VE in $(vzlist -Ha -o veid); do vzctl restart $VE; done
 ```
 
+## command
+```
+for VE in $(vzlist -Ha -o veid); do vzctl exec  $VE `cat /proc/cpuinfo`; done
+```
 
 # Links
 
