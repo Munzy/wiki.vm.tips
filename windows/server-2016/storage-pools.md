@@ -27,6 +27,7 @@ Adds two layers of abstraction for storage.
 	* Simple
 		* Raid 0
 		* FAST!!!!
+		* YOLO!~
 	* Mirror
 		* Raid 1
 		* Redundant and Fast!
