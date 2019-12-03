@@ -1,7 +1,7 @@
-<!-- TITLE: Cisco Router Upgrade -->
+<!-- TITLE: Cisco Router and Switch Upgrade -->
 <!-- SUBTITLE: A quick summary of Cisco Router Upgrade -->
 
-# Upgrade Cisco Router IOS
+# Upgrade Cisco Switch and Router IOS
 
 ## Download
 
