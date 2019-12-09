@@ -1,4 +1,4 @@
-<!-- TITLE: Windows Server 2016 Upgrade -->
+<!-- TITLE: Server 2016 Upgrade -->
 <!-- SUBTITLE: A quick summary of Upgrade -->
 
 # Server 2016 Upgrade
