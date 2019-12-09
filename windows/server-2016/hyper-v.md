@@ -3,6 +3,31 @@
 
 # Hyper-V
 
+## Changes
+
+|     Resource     	|       2012     	|  2016 |
+|:-----------:	|:----------------:	|:----------------:	|
+|   Processors  	|    320 | 512 | 
+|   vCPU  	|    2048 | 2048 | 
+|   Memory 	|    4TB | 24TB | 
+|   Active VMs   	|   1024  | 1024 | 
+
+## Requirements
+
+### Host System
+
+1. SLAT-Capable Processor
+2. VM Monitor Mode extensions
+3. Hardware-Assisted Virtualization
+4. Hardware-Enforced DEP
+
+
+### Upgrade to 2016
+* Export or migrate VMS off host.
+* Clean install of Server 2016
+* Import or migrate VMS onto host.
+* Upgrade VM Configuration Version.
+
 
 
 ## Powershell
