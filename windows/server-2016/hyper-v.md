@@ -21,6 +21,11 @@
 3. Hardware-Assisted Virtualization
 4. Hardware-Enforced DEP
 
+This can be determined with:
+
+`systeminfo`
+`Get-ComputerInfo`
+
 
 ### Upgrade to 2016
 * Export or migrate VMS off host.
