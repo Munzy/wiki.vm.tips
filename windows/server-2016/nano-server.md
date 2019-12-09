@@ -1,4 +1,4 @@
-<!-- TITLE: Windows 2016 Nano Server -->
+<!-- TITLE: Server 2016 Nano Server -->
 <!-- SUBTITLE: A quick summary of Nano Server -->
 
 # 2016 Nano Server
