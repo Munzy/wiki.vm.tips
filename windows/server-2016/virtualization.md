@@ -20,16 +20,22 @@ A toolkit for how and if we are ready to roll out virtualization.
 ### Generations
 
 |      Generation 1     	|       Generation 2      	| Generation 2 (improvements) 	|
-|:---------------------:	|:-----------------------:	|-----------------------------	|
-|     IDE Controller    	| Virtual SCSI Controller 	| Boot from VHDX (64TB)       	|
-|       IDE CD-ROM      	|   Virtual SCSI DC-ROM   	| Hot Add/Remove              	|
-|      Legacy BIOS      	|      UEFI Firmware      	| Secure Boot                 	|
+|:---------------------:	|:-----------------------:	|:---------------------------:	|
+|     IDE Controller    	| Virtual SCSI Controller 	|    Boot from VHDX (64TB)    	|
+|       IDE CD-ROM      	|   Virtual SCSI DC-ROM   	|        Hot Add/Remove       	|
+|      Legacy BIOS      	|      UEFI Firmware      	|         Secure Boot         	|
 |       Legacy NIC      	|      Synthetic NIC      	| Network Boot with IPv4/IPv6 	|
-|   Floppy Controller   	|    No floppy support    	| Removal of Floppy!          	|
-| UART for COM ports    	| Optional                	| Faster and more reliable    	|
-| PS/2 Keyboard & Mouse 	| Software-bsed           	| No emulation, less overhead 	|
-| S3 Video              	| Software-based          	| No emulation, less overhead 	|
-| PCI Bus               	| VM Bus                  	| N/A                         	|
+|   Floppy Controller   	|    No floppy support    	|      Removal of Floppy!     	|
+|   UART for COM ports  	|         Optional        	|   Faster and more reliable  	|
+| PS/2 Keyboard & Mouse 	|      Software-bsed      	| No emulation, less overhead 	|
+|        S3 Video       	|      Software-based     	| No emulation, less overhead 	|
+|        PCI Bus        	|          VM Bus         	|             N/A             	|
+
+
+Generation 1 is emulation based.
+Generation 1 supports 32 bit, where generation 2 doesn't.
+
+Generation 2 is software based.
 
 
 
