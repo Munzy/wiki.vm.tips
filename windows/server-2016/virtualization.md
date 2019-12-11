@@ -21,6 +21,8 @@ A toolkit for how and if we are ready to roll out virtualization.
 
 |      Generation 1     	|       Generation 2      	| Generation 2 (improvements) 	|
 |:---------------------:	|:-----------------------:	|:---------------------------:	|
+|    Emulation Based    	|      Software Based     	|            Faster           	|
+|       32/64 Bit       	|          64 Bit         	|  Remove of 32 bit support.  	|
 |     IDE Controller    	| Virtual SCSI Controller 	|    Boot from VHDX (64TB)    	|
 |       IDE CD-ROM      	|   Virtual SCSI DC-ROM   	|        Hot Add/Remove       	|
 |      Legacy BIOS      	|      UEFI Firmware      	|         Secure Boot         	|
