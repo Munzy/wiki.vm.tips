@@ -156,6 +156,31 @@ Invoke-Command -VMName GUI-NUG -ScriptBlock { Install-WindowsFeature Hyper-V -In
 
 ## Storage 
 
+### Edit Virtual Hard Disk
+* Compact
+	* Compact Disk, and Reclaim unused blocks.
+	* Compact the structure of the virtual disk (( Defraggment like ))
+* Convert
+	* Convert from VHD to VHDX and vice versa.
+	* Only creates disk.
+		* Have to refrence the new disk to change it as the primary.
+* Expand
+	* Increase disk size
+* Shrink
+	* Decrease disk size.
+* Merge
+	* Merge a disk into its parent.
+		* Removes diff disk after completetion.
+	* Can also merge into a new disk.
+	
+	
+### Checkpoints
+
+Standard Checkpoints are application consistent, but can cause corruption in some time sensative applications. It is not recommended to use these in production envirornments. This checkpoint includes Memory, and state.
+
+Production Checkpoints are applications that only do disk state. Great for backups. Talks to the guest OS. 
+
+
 ### Powershell
 
 ```
@@ -204,6 +229,49 @@ Restore-VMSnapshot -VMName CORE-NUG -Name CORE-NUG_base
 
 # remove all checkpoints
 Get-VMSnapshot -VMName CORE-NUG | Remove-VMSnapshot
+
+
+# exit remote session
+Exit-PSSession
+```
+
+## Network
+
+Virtual Switch run at layer 2 of the OSI model.
+* External
+	* Binds to a NIC you chose. 
+	* Talks to the external network.
+	* Talk to VMs on that same network.
+* Internal
+	* Doesn't bind to a network stack on the host.
+	* Talks to VMs on the same network.
+	* Talks to the host machine.
+* Private
+	* Only between VMs.
+
+### Single-root I/O virtualization (SR-IOV)
+
+Single-root I/O virtualization (SR-IOV) is a feature that bypasses the HyperVisor stack and goes directly to the virtualization layer. This has performance benefits. You do need certain CPU features. This can only be enabled when creating the Virtual Switch.
+
+### Powershell
+
+```
+
+# remote over to HV1-NUG
+Enter-PSSession -ComputerName HV1-NUG
+
+
+# create a switch
+New-VMSwitch -SwitchName vInternal -SwitchType Internal
+
+# configure switch IP (gateway)
+New-NetIPAddress -IPAddress 10.10.0.1 -PrefixLength 24 -InterfaceAlias "vEthernet (vInternal)"
+
+# configure network address translation
+New-NetNAT -Name "vNAT" -InternalIPInterfaceAddressPrefix 10.10.0.0/24
+
+# add a virtual NIC
+Add-VMNetworkAdapter -VMName CORE-NUG -SwitchName vInternal
 
 
 # exit remote session
