@@ -19,7 +19,7 @@ esxcli software sources profile list -d https://hostupdate.vmware.com/software/V
 3.  Turn off VMs and put the instance into Maitenance Mode.
 4.  Apply updates.
 ```
-esxcli software profile update -p ESXi-6.5.0-20170702001-standard -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
+esxcli software profile update -p ESXi-6.5.0-20191204001-standard -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
 ```
 5.  Verify update.
 ```
