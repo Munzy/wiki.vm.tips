@@ -5,7 +5,7 @@
 
 
 ## Online
-
+ ### Guide
 1. Enable the firewall rule.
 ```
 esxcli network firewall ruleset set -e true -r httpClient
@@ -33,7 +33,6 @@ Update Result
 esxcli network firewall ruleset set -e false -r httpClient
 ```
 
+### Resources
 [video](https://www.youtube.com/watch?v=Xkh05Wv7D3U){.youtube}
-
-
-Resouces: https://www.vladan.fr/how-to-upgrade-esxi-6-0-to-6-5-via-cli-on-line/
+https://www.vladan.fr/how-to-upgrade-esxi-6-0-to-6-5-via-cli-on-line/
