@@ -26,12 +26,21 @@ esxcli software profile update -p ESXi-6.5.0-20191204001-standard -d https://hos
 Update Result
      Message: The update completed successfully, but...
 ```
-6.  Reboot server.
-7.  Remove Maitenance Mode and start VMs.
-8.  Re-apply firewall ruleset.
+6.  Remove Maitenance Mode.
+7.  Re-apply firewall ruleset.
 ```
 esxcli network firewall ruleset set -e false -r httpClient
 ```
+8.  Reboot server.
+9.  Start remaining VMs.
+
+
+### Problem Resolution
+
+If you have issues applying the updates, things to try:
+
+* Use the -no-tools version if it says it has run out of space.
+* Enable swap in VMware, and point it at a datastore.
 
 ### Resources
 [video](https://www.youtube.com/watch?v=Xkh05Wv7D3U){.youtube}
