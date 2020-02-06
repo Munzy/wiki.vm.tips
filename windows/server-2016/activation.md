@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Activation -->
-<!-- SUBTITLE: A quick summary of Activation -->
+---
+title: Server 2016 Activation
+description: A quick summary of Activation
+published: true
+date: 2020-02-06T23:18:56.532Z
+tags: 
+---
 
 # Activation
 ## Activation

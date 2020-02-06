@@ -1,5 +1,10 @@
-<!-- TITLE: VMWare Tools -->
-<!-- SUBTITLE: A quick summary of Vmware Tools -->
+---
+title: VMWare Tools
+description: A quick summary of Vmware Tools
+published: true
+date: 2020-02-06T23:18:23.127Z
+tags: 
+---
 
 # VMWare Tools
 ## Official

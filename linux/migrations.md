@@ -1,5 +1,10 @@
-<!-- TITLE: Linux Migrations -->
-<!-- SUBTITLE: A few different options for migrating linux servers to another platform. -->
+---
+title: Linux Migrations
+description: A few different options for migrating linux servers to another platform.
+published: true
+date: 2020-02-06T23:18:15.007Z
+tags: 
+---
 
 # Migrations
 Sometimes we need to move a server from one provider to the next. Some methods however will not work with your provider. This is because of how they setup there servers or vms during deployment.

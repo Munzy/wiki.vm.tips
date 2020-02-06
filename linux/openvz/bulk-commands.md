@@ -1,5 +1,10 @@
-<!-- TITLE: OpenVZ Bulk Commands -->
-<!-- SUBTITLE: A quick summary of Bulk Commands -->
+---
+title: OpenVZ Bulk Commands
+description: A quick summary of Bulk Commands
+published: true
+date: 2020-02-06T23:18:36.652Z
+tags: 
+---
 
 # Commands
 ## start

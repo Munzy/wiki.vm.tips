@@ -1,5 +1,10 @@
-<!-- TITLE: Postfix Management -->
-<!-- SUBTITLE: How to manage postfix email servers. -->
+---
+title: Postfix Management
+description: How to manage postfix email servers.
+published: true
+date: 2020-02-06T23:18:26.822Z
+tags: 
+---
 
 # Postfix Management 101
 

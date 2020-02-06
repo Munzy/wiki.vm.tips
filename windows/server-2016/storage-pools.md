@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Storage Pools -->
-<!-- SUBTITLE: A quick summary of Storage Pools -->
+---
+title: Server 2016 Storage Pools
+description: A quick summary of Storage Pools
+published: true
+date: 2020-02-06T23:19:22.848Z
+tags: 
+---
 
 # Storage Pools
 

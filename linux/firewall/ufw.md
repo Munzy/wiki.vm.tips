@@ -1,5 +1,10 @@
-<!-- TITLE: UFW -->
-<!-- SUBTITLE: How to setup UFW Firewall -->
+---
+title: UFW
+description: How to setup UFW Firewall
+published: true
+date: 2020-02-06T23:18:34.760Z
+tags: 
+---
 
 # UFW
 

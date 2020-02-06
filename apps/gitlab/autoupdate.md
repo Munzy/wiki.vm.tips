@@ -1,5 +1,10 @@
-<!-- TITLE: Gitlab Autoupdate -->
-<!-- SUBTITLE: A quick summary of Autoupdate -->
+---
+title: Gitlab Autoupdate
+description: A quick summary of Autoupdate
+published: true
+date: 2020-02-06T23:18:24.987Z
+tags: 
+---
 
 # Autoupdate
 

@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Virtual Disk -->
-<!-- SUBTITLE: A quick summary of Virtual Disk -->
+---
+title: Server 2016 Virtual Disk
+description: A quick summary of Virtual Disk
+published: true
+date: 2020-02-06T23:19:28.931Z
+tags: 
+---
 
 # Virtual Hard Disk
 

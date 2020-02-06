@@ -1,5 +1,10 @@
-<!-- TITLE: Postfix Relay -->
-<!-- SUBTITLE: Setting up a simple postfix relay -->
+---
+title: Postfix Relay
+description: Setting up a simple postfix relay
+published: true
+date: 2020-02-06T23:18:28.866Z
+tags: 
+---
 
 # Relay
 

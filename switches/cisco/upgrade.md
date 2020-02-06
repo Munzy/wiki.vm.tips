@@ -1,5 +1,10 @@
-<!-- TITLE: Cisco Router and Switch Upgrade -->
-<!-- SUBTITLE: A quick summary of Cisco Router Upgrade -->
+---
+title: Cisco Router and Switch Upgrade
+description: A quick summary of Cisco Router Upgrade
+published: true
+date: 2020-02-06T23:18:50.548Z
+tags: 
+---
 
 # Upgrade Cisco Switch and Router IOS
 

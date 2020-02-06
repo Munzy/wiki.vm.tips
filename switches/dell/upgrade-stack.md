@@ -1,5 +1,10 @@
-<!-- TITLE: Dell Switch Stack Upgrade -->
-<!-- SUBTITLE: How to upgrade Dell Switch Stacks -->
+---
+title: Dell Switch Stack Upgrade
+description: How to upgrade Dell Switch Stacks
+published: true
+date: 2020-02-06T23:18:52.511Z
+tags: 
+---
 
 # Dell Switch Stack Upgrade
 

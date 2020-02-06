@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Editions -->
-<!-- SUBTITLE: A quick summary of Editions -->
+---
+title: Server 2016 Editions
+description: A quick summary of Editions
+published: true
+date: 2020-02-06T23:19:10.707Z
+tags: 
+---
 
 # Editions
 

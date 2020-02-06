@@ -1,5 +1,10 @@
-<!-- TITLE: Desired State Configuration -->
-<!-- SUBTITLE: A quick summary of Desired State Configuration -->
+---
+title: Desired State Configuration
+description: A quick summary of Desired State Configuration
+published: true
+date: 2020-02-06T23:19:04.576Z
+tags: 
+---
 
 # DSC -- Desired State Configuration
 

@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Installation -->
-<!-- SUBTITLE: A quick summary of Installation -->
+---
+title: Server 2016 Installation
+description: A quick summary of Installation
+published: true
+date: 2020-02-06T23:19:15.065Z
+tags: 
+---
 
 # Installation
 

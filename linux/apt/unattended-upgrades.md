@@ -1,5 +1,10 @@
-<!-- TITLE: Unattended Upgrades -->
-<!-- SUBTITLE: A quick summary of Unattended Upgrades -->
+---
+title: Unattended Upgrades
+description: A quick summary of Unattended Upgrades
+published: true
+date: 2020-02-06T23:18:30.846Z
+tags: 
+---
 
 # Unattended-Upgrades
 

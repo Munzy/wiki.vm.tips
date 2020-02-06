@@ -1,5 +1,10 @@
-<!-- TITLE: Upgrade Via ASDM -->
-<!-- SUBTITLE: A quick summary of Upgrade Via Asdm -->
+---
+title: Upgrade Via ASDM
+description: A quick summary of Upgrade Via Asdm
+published: true
+date: 2020-02-06T23:18:48.461Z
+tags: 
+---
 
 # Upgrade
 

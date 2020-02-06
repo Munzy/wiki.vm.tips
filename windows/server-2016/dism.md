@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 DISM -->
-<!-- SUBTITLE: A quick summary of Dism -->
+---
+title: Server 2016 DISM
+description: A quick summary of Dism
+published: true
+date: 2020-02-06T23:19:08.727Z
+tags: 
+---
 
 # DISM
 

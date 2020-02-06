@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Upgrade -->
-<!-- SUBTITLE: A quick summary of Upgrade -->
+---
+title: Server 2016 Upgrade
+description: A quick summary of Upgrade
+published: true
+date: 2020-02-06T23:19:26.854Z
+tags: 
+---
 
 # Server 2016 Upgrade
 

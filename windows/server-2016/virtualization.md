@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Virtualization -->
-<!-- SUBTITLE: A quick summary of Virtualization -->
+---
+title: Server 2016 Virtualization
+description: A quick summary of Virtualization
+published: true
+date: 2020-02-06T23:19:30.914Z
+tags: 
+---
 
 # Virtualization
 

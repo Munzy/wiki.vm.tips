@@ -1,5 +1,10 @@
-<!-- TITLE: Dell Switch Upgrade -->
-<!-- SUBTITLE: How to upgrade Dell Switches -->
+---
+title: Dell Switch Upgrade
+description: How to upgrade Dell Switches
+published: true
+date: 2020-02-06T23:18:54.605Z
+tags: 
+---
 
 # Dell Switch Upgrade
 

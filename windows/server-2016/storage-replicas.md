@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Storage Replicas -->
-<!-- SUBTITLE: A quick summary of Storage Replicas -->
+---
+title: Server 2016 Storage Replicas
+description: A quick summary of Storage Replicas
+published: true
+date: 2020-02-06T23:19:24.915Z
+tags: 
+---
 
 # Storage Replicas
 Built for Disaster Recovery.

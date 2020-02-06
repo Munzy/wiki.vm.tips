@@ -1,5 +1,10 @@
-<!-- TITLE: Yum Package Manager -->
-<!-- SUBTITLE: A quick summary of Yum -->
+---
+title: Yum Package Manager
+description: A quick summary of Yum
+published: true
+date: 2020-02-06T23:18:18.846Z
+tags: 
+---
 
 # Yum
 

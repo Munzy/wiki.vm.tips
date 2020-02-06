@@ -1,5 +1,10 @@
-<!-- TITLE: Linux -->
-<!-- SUBTITLE: A quick summary of Linux -->
+---
+title: Linux
+description: A quick summary of Linux
+published: true
+date: 2020-02-06T23:18:05.466Z
+tags: 
+---
 
 # Linux
 

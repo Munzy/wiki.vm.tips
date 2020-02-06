@@ -1,5 +1,10 @@
-<!-- TITLE: Create Bond on Brocade -->
-<!-- SUBTITLE: A quick summary of Create Bond -->
+---
+title: Create Bond on Brocade
+description: A quick summary of Create Bond
+published: true
+date: 2020-02-06T23:18:42.446Z
+tags: 
+---
 
 # Bonding
 

@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Containers -->
-<!-- SUBTITLE: A quick summary of Containers -->
+---
+title: Server 2016 Containers
+description: A quick summary of Containers
+published: true
+date: 2020-02-06T23:18:58.425Z
+tags: 
+---
 
 # Server 2016 Containers
 

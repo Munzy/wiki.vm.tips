@@ -1,5 +1,10 @@
-<!-- TITLE: Tftp Servers -->
-<!-- SUBTITLE: A quick summary of Tftp -->
+---
+title: Tftp Servers
+description: A quick summary of Tftp
+published: true
+date: 2020-02-06T23:18:09.282Z
+tags: 
+---
 
 # tftp servers
 

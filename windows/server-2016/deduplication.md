@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Deduplication -->
-<!-- SUBTITLE: A quick summary of Deduplication -->
+---
+title: Server 2016 Deduplication
+description: A quick summary of Deduplication
+published: true
+date: 2020-02-06T23:19:02.338Z
+tags: 
+---
 
 # Deduplication
 

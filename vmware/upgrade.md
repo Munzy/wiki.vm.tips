@@ -1,5 +1,10 @@
-<!-- TITLE: VMware Upgrade -->
-<!-- SUBTITLE: A quick summary of Upgrade -->
+---
+title: VMware Upgrade
+description: A quick summary of Upgrade
+published: true
+date: 2020-02-06T23:18:21.271Z
+tags: 
+---
 
 # VMware Upgrade
 

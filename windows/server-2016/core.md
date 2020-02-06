@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Core Basics -->
-<!-- SUBTITLE: A quick summary of Core -->
+---
+title: Server 2016 Core Basics
+description: A quick summary of Core
+published: true
+date: 2020-02-06T23:19:00.304Z
+tags: 
+---
 
 # Core Basics
 

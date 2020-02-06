@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Shares -->
-<!-- SUBTITLE: A quick summary of Shares -->
+---
+title: Server 2016 Shares
+description: A quick summary of Shares
+published: true
+date: 2020-02-06T23:19:20.764Z
+tags: 
+---
 
 # Shares
 ## Share Types

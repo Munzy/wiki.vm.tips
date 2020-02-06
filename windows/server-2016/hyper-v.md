@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Hyper V -->
-<!-- SUBTITLE: A quick summary of Hyper V -->
+---
+title: Server 2016 Hyper V
+description: A quick summary of Hyper V
+published: true
+date: 2020-02-06T23:19:12.980Z
+tags: 
+---
 
 # Hyper-V
 

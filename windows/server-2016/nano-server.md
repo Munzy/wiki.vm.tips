@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Nano Server -->
-<!-- SUBTITLE: A quick summary of Nano Server -->
+---
+title: Server 2016 Nano Server
+description: A quick summary of Nano Server
+published: true
+date: 2020-02-06T23:19:16.908Z
+tags: 
+---
 
 # 2016 Nano Server
 A very small version of Windows Server. Meant for Containers, and the cloud. Very little maitenance.

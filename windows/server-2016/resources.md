@@ -1,5 +1,10 @@
-<!-- TITLE: Server 2016 Required Resources -->
-<!-- SUBTITLE: A quick summary of Resources -->
+---
+title: Server 2016 Required Resources
+description: A quick summary of Resources
+published: true
+date: 2020-02-06T23:19:18.796Z
+tags: 
+---
 
 # Minimum Requirements
 

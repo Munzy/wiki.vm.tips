@@ -1,5 +1,10 @@
-<!-- TITLE: Brocade Switch Upgrade -->
-<!-- SUBTITLE: A quick summary of Upgrade -->
+---
+title: Brocade Switch Upgrade
+description: A quick summary of Upgrade
+published: true
+date: 2020-02-06T23:18:44.540Z
+tags: 
+---
 
 # Brocade Upgrade
 
