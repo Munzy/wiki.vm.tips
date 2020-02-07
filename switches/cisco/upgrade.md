@@ -2,7 +2,7 @@
 title: Cisco Router and Switch Upgrade
 description: A quick summary of Cisco Router Upgrade
 published: true
-date: 2020-02-06T23:18:50.548Z
+date: 2020-02-07T20:54:05.530Z
 tags: 
 ---
 
