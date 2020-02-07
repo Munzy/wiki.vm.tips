@@ -2,7 +2,7 @@
 title: Cisco Switch / Router Rescue
 description: How to rescue a broken cisco router
 published: true
-date: 2020-02-07T00:42:18.479Z
+date: 2020-02-07T00:43:53.925Z
 tags: cisco, router, switch, rescue
 ---
 
