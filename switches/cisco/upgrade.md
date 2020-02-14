@@ -2,7 +2,7 @@
 title: Cisco Router and Switch Upgrade
 description: A quick summary of Cisco Router Upgrade
 published: true
-date: 2020-02-07T20:54:05.530Z
+date: 2020-02-14T20:49:01.373Z
 tags: 
 ---
 
@@ -30,6 +30,13 @@ enable
 
 ```
 show file systems
+```
+
+### Recursive Delete
+If you find yourself in need of deleteing a folder structure from the top down you can do that with the delete command.
+
+```
+delete /recursive /force flash:<folder>/<folder>
 ```
 
 ### Copy
