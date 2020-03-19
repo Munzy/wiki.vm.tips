@@ -2,18 +2,20 @@
 title: Urbackup Firewall Apply
 description: Apply urbackup firewall policy via powershell
 published: true
-date: 2020-03-19T21:11:12.380Z
+date: 2020-03-19T22:00:51.440Z
 tags: urbackup, powershell, firewall, apply
 ---
 
-# Urbackup Firewall
+# Urbackup
 
 ## Remote into Computer
 ```
 Enter-PSSession -ComputerName <computername>
 ```
 
-## Current Firewall Settings
+## Firewall
+
+### Current Firewall Settings
 ```
 Get-NetFirewallRule -DisplayName UrBackupClientBackend
 ```
@@ -40,10 +42,37 @@ EnforcementStatus     : NotApplicable
 PolicyStoreSource     : PersistentStore
 PolicyStoreSourceType : Local
 ```
-## Set Firewall Settings
+### Set Firewall Settings
 
-### Any
+#### Any
 
 ```
 Set-NetFirewallRule -DisplayName UrBackupClientBackend -Profile Any
 ```
+
+## Service
+
+### Service Status
+```
+Get-Service -name UrBackupClientBackend
+```
+Response:
+```
+
+Status   Name               DisplayName
+------   ----               -----------
+Running  UrBackupClientB... UrBackup Client Service for Backups
+
+```
+
+### Set Status
+```
+Set-Service -name UrBackupClientBackend -StartupType Automatic
+```
+
+### Start Service
+```
+start-Service  -Name UrBackupClientBackend
+```
+
+
