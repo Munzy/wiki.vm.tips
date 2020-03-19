@@ -1,9 +1,9 @@
 ---
-title: Urbackup Firewall Apply
-description: Apply urbackup firewall policy via powershell
+title: Urbackup
+description: Apply urbackup settings via powershell
 published: true
-date: 2020-03-19T22:00:51.440Z
-tags: urbackup, powershell, firewall, apply
+date: 2020-03-19T22:05:28.842Z
+tags: urbackup, powershell, firewall, apply, service
 ---
 
 # Urbackup
