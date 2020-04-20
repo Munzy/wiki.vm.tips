@@ -2,13 +2,21 @@
 title: Commands
 description: A quick summary of Commands
 published: true
-date: 2020-04-01T16:31:12.964Z
+date: 2020-04-20T17:11:37.076Z
 tags: 
 ---
 
-# Common Commands
+# Common Cisco Commands
 
 ### ASA
+
+## Restart HTTP Server
+
+```
+config t
+no http server enable
+http server enable
+```
 
 ## Show AnyConnect Users
 
