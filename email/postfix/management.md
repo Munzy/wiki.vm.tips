@@ -2,7 +2,7 @@
 title: Postfix Management
 description: How to manage postfix email servers.
 published: true
-date: 2020-02-06T23:18:26.822Z
+date: 2020-04-23T04:43:15.982Z
 tags: 
 ---
 
@@ -51,4 +51,24 @@ postsuper -d ALL deferred
 postfix -f
 # or
 postfix flush
+```
+
+## Config Options
+
+
+### IPv4 Force
+```
+#### add to /etc/postfix/main.cf
+
+smtpd_tls_security_level = may
+smtp_tls_security_level = may
+smtp_tls_loglevel = 1
+smtpd_tls_loglevel = 1
+
+
+#### Exec on server for IPv4 preference.
+
+
+postconf -e "smtp_address_preference = ipv4"
+
 ```
