@@ -2,7 +2,7 @@
 title: Kubernetes Setup
 description: 
 published: true
-date: 2020-04-22T05:51:14.136Z
+date: 2020-04-23T04:40:02.217Z
 tags: 
 ---
 
@@ -109,3 +109,49 @@ kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/
 kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/rbac.yaml
 kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/calico.yaml
 ```
+
+## Important Links
+
+https://docs.traefik.io/user-guide/kubernetes/
+
+https://kubernetes.io/blog/2015/10/some-things-you-didnt-know-about-kubectl_28/
+
+https://blog.deimos.fr/2017/08/20/kubernetes-with-traefik-and-lets-encrypt/
+
+https://docs.projectcalico.org/v1.6/reference/advanced/etcd-secure
+
+https://www.linode.com/docs/applications/containers/how-to-deploy-nginx-on-a-kubernetes-cluster/
+
+https://mherman.org/blog/setting-up-a-kubernetes-cluster-on-ubuntu/
+
+https://docs.projectcalico.org/v3.3/getting-started/kubernetes/
+
+https://icicimov.github.io/blog/kubernetes/Kubernetes-cluster-step-by-step-Part8/
+
+https://medium.com/containerum/how-to-launch-nginx-ingress-and-cert-manager-in-kubernetes-55b182a80c8f
+
+
+https://github.com/nginxinc/kubernetes-ingress/blob/master/examples/proxy-protocol/README.md <-- Proxy Pass IP.
+
+https://blog.powerupcloud.com/autoscaling-based-on-cpu-memory-in-kubernetes-part-ii-fe2e495bddd4 <-- Auto scaling
+https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/
+
+
+https://stackoverflow.com/questions/39293441/needed-ports-for-kubernetes-cluster <-- Firewall
+https://rancher.com/docs/rancher/v2.x/en/installation/references/
+
+
+https://vix.digital/insights/how-get-kubernetes-pulling-private-gitlab-container-registry/ <--- Gitlab intigration
+
+
+https://medium.com/google-cloud/kubernetes-configmaps-and-secrets-68d061f7ab5b <-- passing variables.
+
+
+kubectl create serviceaccount --namespace kube-system tiller
+kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+kubectl patch deploy --namespace kube-system tiller-deploy -p '{"spec":{"template":{"spec":{"serviceAccount":"tiller"}}}}'
+helm install --namespace kube-system --name nginx-ingress stable/nginx-ingress --set rbac.create=true --set controller.kind=DaemonSet --set controller.daemonset.useHostPort=true
+
+## IPv6 Support
+helm install --namespace kube-system --name nginx-ingress stable/nginx-ingress --set rbac.create=true --set controller.kind=DaemonSet --set controller.dnsPolicy=ClusterFirst --set controller.hostNetwork=true --set controller.daemonset.useHostPort=true
+
